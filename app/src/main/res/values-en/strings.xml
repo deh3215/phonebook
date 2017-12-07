@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">phonebook</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_email">Email</string>
+    <string name="btn_name">Add</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="msg_title">Please input message</string>
+</resources>

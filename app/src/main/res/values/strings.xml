@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">聯絡簿</string>
+    <string name="txt_name">姓名</string>
+    <string name="txt_phone">電話</string>
+    <string name="txt_email">電子信箱</string>
+    <string name="btn_add">新增</string>
+    <string name="btn_update">更新</string>
+    <string name="btn_delete">刪除</string>
+    <string name="msg_title">請輸入電話</string>
+</resources>

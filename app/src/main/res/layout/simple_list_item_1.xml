@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a32150.phonebook.MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="140sp"
+        android:layout_height="57dp"
+        android:gravity="center_vertical"
+        android:textColor="#003C9D"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="text" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="246dp"
+        android:layout_height="23dp"
+        android:gravity="center_vertical"
+        android:textColor="#660077"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/text1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="text2" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="244dp"
+        android:layout_height="33dp"
+        android:textColor="#660077"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text1"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        tools:text="text3" />
+</android.support.constraint.ConstraintLayout>
